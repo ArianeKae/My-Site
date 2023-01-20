@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kae Dadula</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <!-- Font styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&family=Smooch&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container top">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Kae Dadula</h1>
+        <p>R.N / Clinical Abstractor</p>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="images mypic" src="images/KaeDP.jpg" alt="kae-img">
+    </div>
+
+    <div class="container middle">
+        <div class="profile">
+            <!-- <img class="images mypic" src="images/KaeDP.jpg" alt="Kae"> -->
+            <h2>Hello.</h2>
+            <p>My name is Kae Dadula, and I currently work at Infinit-O Manila.</p>
+            <p>I worked as a Nurse for 4 years at Milagros District Hospital and Tumauini Community Hospital.</p>
+        </div>
+        <br>
+
+        <div class="learnings">
+            <div class="w3-panel w3-card">
+                <img class="images learn-img" src="images/leadership101.jpg" alt="leadership">
+                <p>I've completed Leadership 101 and have been the OM1 team's SME, trainer, and QA for over a year.</p>
+            </div>
+            <div class="w3-panel w3-card">
+                <img class="images learn-img" src="images/prog.jpg" alt="programming">
+                <p class="prog-descip">
+                    I'm still new to programming and currently learning MERN Full-Stack.
+                    I've completed basic and intermediate HTML, CSS, Javascript, Bootstrap,React.js and Database
+                    courses.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>Background</h2>
+            <div class="skill-row">
+                <img class="images hinduja-img" src="images/hgs.jpg" alt="hinduja">
+                <h3>Clinical Intake</h3>
+                <p class="hinduja-descip">
+                    I worked as a clinical intake from 2015-2017, handling authorization for medical services from
+                    2011-2015.</p>
+            </div>
+            <div class="skill-row">
+                <img class="images concentrix-img" src="images/concentrix.jpg" alt="concentrix">
+                <h3>Provider Services</h3>
+                <p class="concentrix-descip">
+                    I worked as a provider services representative for this company for about a year, handling benefits
+                    and
+                    claims.</p>
+            </div>
+            <div class="skill-row">
+                <img class="images abst" src="images/clinical abstract.jpg" alt="abstraction">
+                <h3>Clinical Abstractor</h3>
+                <p class="abst-descip">
+                    I've only been with OMEGA for 6 months, but with Infinit-O for over 4 years now.</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="slideshow-container carousel-awards">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img class="img-cert" src="images/certificate/cert1.png" style="width:80%">
+                <div class="text">Hinduja</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img class="img-cert" src="images/certificate/cert2.jpg" style="width:80%">
+                <div class="text">Hinduja</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img class="img-cert" src="images/certificate/cert3.jpg" style="width:80%">
+                <div class="text">OMEGA</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img class="img-cert" src="images/certificate/cert4.jpg" style="width:80%">
+                <div class="text">Infinit-O</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img class="img-cert" src="images/certificate/cert5.jpg" style="width:80%">
+                <div class="text">Infinit-O</div>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <hr>
+        <div class="contact-me">
+            <h3>Get In Touch</h3>
+            <h4>I'm looking forward to start working with you!</h4>
+            <p>Want to get in touch? I would love to hear from you. Here's how you can reach me...</p>
+            <!-- <button class="btn" href="mailto:kaegandah14@gmail.com">CONTACT ME</button> -->
+            <a href="mailto:kaegandah14@gmail.com">
+                <button class="btn">CONTACT ME</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="container bottom">
+        <!-- <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a> -->
+        <a class="footer-link" href="https://www.facebook.com/arianne.sorianorn/">Facebook</a>
+        <!-- <a class="footer-link" href="#">Website</a> -->
+        <p class="copyright">© Kae Dadula</p>
+    </div>
+
+    <script type="text/javascript">
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+    </script>
+
+</html>
